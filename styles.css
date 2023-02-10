@@ -1,0 +1,177 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    font-family: monospace;
+}
+
+.header > h5 {
+    margin-left: 50px;
+    white-space: nowrap;
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+.headerlinks {
+    display: flex;
+    margin-right: 50px;
+    
+}
+
+.headerlinks > a {
+    margin: 10px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding-bottom: 50px;
+    gap: 100px;
+    font-family: 'Trebuchet MS', sans-serif;
+    flex-wrap: wrap;
+}
+
+.hero .herobox1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 450px;
+    margin-left: auto;
+}
+.herobox1 > h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    margin-bottom: -10px;
+}
+
+.herobox1 > p {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.hero .herobox2 {
+    margin-right: auto;
+}
+
+.herobox1 > button {
+    background-color: #3882f6;
+    border: 2px solid #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 6px 35px;
+}
+
+.content {
+    margin:  50px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.content > h3 {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.container p {
+    text-align: center;
+    width: 150px;
+    color: #1f2937;
+}
+
+
+.container img {
+    border-radius: 10px;
+}
+
+.quotecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 40px;
+    
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 765px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quoteauthor {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.actioncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    width: 850px;
+    border-radius: 10px;
+    padding: 20px 0px;
+    font-family: 'Trebuchet MS', sans-serif;
+    flex-wrap: wrap;
+}
+
+.banner .banner1 {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.banner .banner2 {
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+.bannerbutton > button{
+    background-color: #3882f6;
+    border: solid white 2px;
+    
+    color: #f9faf8;
+    border-radius: 10px;
+    padding: 6px 35px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    font-family: monospace;
+}
